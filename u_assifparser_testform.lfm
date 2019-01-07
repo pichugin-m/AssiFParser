@@ -1,0 +1,78 @@
+object Form1: TForm1
+  Left = 440
+  Height = 607
+  Top = 118
+  Width = 917
+  BorderStyle = bsSingle
+  Caption = 'AssiFormulaParser'
+  ClientHeight = 607
+  ClientWidth = 917
+  LCLVersion = '1.6.0.4'
+  object Edit1: TEdit
+    Left = 24
+    Height = 23
+    Top = 24
+    Width = 880
+    TabOrder = 0
+    Text = '44+-89/2*84,0'
+  end
+  object Button1: TButton
+    Left = 344
+    Height = 25
+    Top = 56
+    Width = 75
+    Caption = 'Execute'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object TreeView1: TTreeView
+    Left = 408
+    Height = 480
+    Top = 112
+    Width = 496
+    AutoExpand = True
+    DefaultItemHeight = 18
+    ReadOnly = True
+    TabOrder = 2
+    Options = [tvoAutoExpand, tvoAutoItemHeight, tvoHideSelection, tvoKeepCollapsedNodes, tvoReadOnly, tvoShowButtons, tvoShowLines, tvoShowRoot, tvoToolTips, tvoThemedDraw]
+  end
+  object ListBox1: TListBox
+    Left = 24
+    Height = 480
+    Top = 112
+    Width = 368
+    Items.Strings = (
+      '2+2-1*2+(4)'
+      '(2+(4*2-2-2)-1*2)+((4+2*2)-(44*-1))'
+      'text((2+(4*2-2-2)-1*2)+((4+2*2)-(44*-1)))'
+      'concat("Result";"=";text((2+(4*2-2-2)-1*2)+((4+2*2)-(44*-1))))'
+      '44+-89/2*84,0'
+      '-44+-89/2*84,0+-1*-45,5/2'
+      '-44+-89/2*84,0+-1*-45,5/2+(67+(9*5)+45+45)'
+      'if(equal("1";"1");"Хорошо";if(equal("1";"1";"1");"Плохо";"Очень плохо"))'
+      'if(equal("1";"1");"Хор\" +45 \"ошо";if(equal("1";"1";"1");"Плохо";"Очень плохо"))'
+      'if(False;"Хорошо";"Плохо")'
+      '////Ошибки'
+      'if(756+78;5)'
+      'if(False;"Хорошо";"Плохо")False'
+      'if(equal("1";"1");"Хор" +45 "ошо";if(equal("1";"1";"1");"Плохо";"Очень плохо"))'
+      ''
+      'if(True,"{ROWINDEXA}.{ROWINDEXBNEW}",if(False,"",""))'
+      'if(or(True,False),concat("DataObject.DescriptionReport","",if(And(True,equal(True,"1"))," %br13;В составе:","")),if(False,concat("{ROWINDEXANEW}. ","LabelName"),if(False,"1","")))'
+      'if(or(isItemUse();isItemResIncl());concat(getparam("DataObject.Manufacturer");", ";getparam("DataObject.Mark");If(Equal(getparam("DataObject.CodeNumber");"");"";concat(" (";getparam("DataObject.CodeNumber");")")));"")'
+      'concat(" (";getparam("DataObject.CodeNumber");")")'
+    )
+    ItemHeight = 15
+    OnClick = ListBox1Click
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 432
+    Height = 25
+    Top = 56
+    Width = 75
+    Caption = 'Parse'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+end

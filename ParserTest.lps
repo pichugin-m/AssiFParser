@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="13">
+      <Unit0>
+        <Filename Value="ParserTest.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="131"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="u_assifparser_testform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="49" Y="22"/>
+        <UsageCount Value="131"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="parcer_src\u_assifparser_class.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="29" Y="19"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="parcer_src\u_assifparser_fstandard.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="555"/>
+        <CursorPos X="28" Y="565"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="parcer_src\u_assifparcer_class.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="746"/>
+        <CursorPos X="14" Y="771"/>
+        <UsageCount Value="131"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="parcer_src\u_assifparcer_fstandard.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="189"/>
+        <CursorPos X="19" Y="225"/>
+        <UsageCount Value="67"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\Lazarus16\lcl\comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3510"/>
+        <CursorPos X="3" Y="3531"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\Lazarus16\lcl\interfaces\win32\win32listsl.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="137"/>
+        <CursorPos Y="158"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\Lazarus16\components\lazutils\lazutf8.pas"/>
+        <UnitName Value="LazUTF8"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="64"/>
+        <CursorPos X="10" Y="90"/>
+        <UsageCount Value="37"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\Lazarus16\fpc\3.0.0\source\rtl\objpas\sysutils\sysstrh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="148"/>
+        <CursorPos X="23" Y="173"/>
+        <UsageCount Value="8"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\Lazarus16\fpc\3.0.0\source\packages\rtl-objpas\src\inc\variants.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="90"/>
+        <CursorPos X="20" Y="81"/>
+        <UsageCount Value="13"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\Lazarus16\fpc\3.0.0\source\rtl\inc\varianth.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="104"/>
+        <CursorPos X="31" Y="124"/>
+        <UsageCount Value="8"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\Lazarus16\fpc\3.0.0\source\rtl\objpas\math.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="96"/>
+        <CursorPos X="15" Y="116"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+    </Units>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="parcer_src\u_assifparser_fstandard.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="parcer_src\u_assifparser_fstandard.pas"/>
+        <Caret Line="565" Column="28" TopLine="555"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
