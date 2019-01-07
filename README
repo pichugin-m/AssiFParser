@@ -1,0 +1,7 @@
+AssiFParser
+========================================
+
+Parser of mathematical formulas and functions, implemented as a separate class. 
+The project was created for the FPC compiler and the Lazarus IDE.
+
+Copyright (c) 2019 Pichugin M.
